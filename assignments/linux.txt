@@ -68,16 +68,16 @@ Assignment 5: Ownership and File Permissions
 Task 1: File Permissions
 
 Create a new directory named "permissions_assignment" and navigate into it.
-Inside this directory, create a text file named "secret.txt" with sensitive content.
+Inside this directory, create a text file named "abc.txt" with sensitive content.
 Set the file permissions so that only the owner can read and write, while others have no access.
 Verify the permissions using the ls -l command.
 
 Task 2: Ownership and Group Permissions
 
-Create a new group named "secure_group" using the groupadd command.
-Add the current user to the "secure_group" using the usermod command.
-Change the group ownership of "secret.txt" to "secure_group".
-Allow members of the "secure_group" to read the "secret.txt" file.
+Create a new group named "dev_group" using the groupadd command.
+Add the current user to the "dev_group" using the usermod command.
+Change the group ownership of "abc.txt" to "dev_group".
+Allow members of the "dev_group" to read the "abc.txt" file.
 
 Assignment 6: Monitoring
 
@@ -106,7 +106,6 @@ Assignment 8: Networking
 Task 1: IP Configuration
 
 Use the ifconfig or ip command to view the network interfaces and their configurations.
-Change the IP address of one of the network interfaces using appropriate commands.
 
 Task 2: Network Connectivity
 
