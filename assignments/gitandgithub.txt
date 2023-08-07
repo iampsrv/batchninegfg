@@ -1,0 +1,14 @@
+Tasks:
+
+Git and Github
+
+1. Create a new directory, initialize a Git repository, and create an initial commit with a README file.
+2. Familiarize yourself with essential Git commands like git add, git commit, git status, and git log.
+3. Create a new branch and switch between branches using git checkout.
+4. Make changes in different branches and observe how they are isolated.
+5. Merge changes from one branch into another using git merge.
+6. Merge changes from one branch into another using git rebase.
+7. Handle merge conflicts and understand conflict resolution.
+8. Fork a public repository on GitHub and clone it to your local machine.
+9. Make changes in your local repository and push them to your forked remote repository.
+10. Create a pull request to propose changes to the original repository.
