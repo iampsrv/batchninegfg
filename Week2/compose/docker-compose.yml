@@ -6,3 +6,6 @@ services:
       - "5001:5001"
   redis:
     image: "redis:alpine"
+
+# docker build -t flaskcontainer .
+# docker run -it -p 5001:5001 flaskcontainer

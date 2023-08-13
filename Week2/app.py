@@ -6,4 +6,4 @@ app = Flask (__name__)
 def hello():
     return "Hello Everyone"
 
-app.run(host='0.0.0.0',port=8080,debug=True)
+app.run(port=8080,debug=True)
