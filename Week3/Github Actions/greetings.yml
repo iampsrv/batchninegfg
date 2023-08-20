@@ -1,0 +1,14 @@
+name: Greetings
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: List files
+      run: ls -ltr
+    - name: Echo simple message
+      run: echo "Hello Pranjal"
