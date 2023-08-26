@@ -135,7 +135,7 @@ Build Now (project to watch) => Build Now(current project)
 => To setup the webhook, you need to goto your Github repo – > Settings -> Webhooks -> Add webhook -> <jenkins url>/github-webhook.
 http://9682-203-81-242-177.ngrok.io//github-webhook/
 After selecting this option, all you need to do is run the build first time from within Jenkins using “Build Now” option. 
-This will enable jenkins to register the github event, so that from then onwards whenever you push the code in github it will automatically run this job in jenkins.
+http://18.212.169.125:8080//github-webhook/
 
 4. Poll SCM:
 => Build after any changes occured (New commit take place in Github) 

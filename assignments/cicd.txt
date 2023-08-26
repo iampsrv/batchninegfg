@@ -1,0 +1,13 @@
+Build CI/CD pipeline using Jenkins and Github Action and perform below things
+
+1. Clone the repository.
+2. Set up the environment (e.g., language versions, dependencies).
+3. Build new docker image and publish to docker hub.
+4. Run tests.
+5. Deploy the new docker image (if applicable)
+
+Additional: 
+
+Configure artifact storage to keep build outputs and logs
+Configure email or other notification mechanisms for build status
+Try different build triggers to start the job in Jenkins
