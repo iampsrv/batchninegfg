@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myfirstpod11
+  labels:
+    app: myflaskapp
+  namespace: default
+spec:
+  containers:
+    - name: myfirstpod
+      image: psrv3/batchsevengithub-action:latest
+      ports:
+        - containerPort: 5001

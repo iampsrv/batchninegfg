@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myfirstpodrc
+  labels:
+    app: nginx
+spec:
+  template:
+    metadata:
+      name: myfirstpod
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: myfirstpod
+          image: psrv3/batchsevengithub-action:latest
+  replicas: 2

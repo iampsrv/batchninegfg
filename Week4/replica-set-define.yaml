@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myfirstpodrs
+  labels:
+    app: myflaskapp
+spec:
+  template:
+    metadata:
+      name: myfirstpod
+      labels:
+        app: myflaskapp
+    spec:
+      containers:
+        - name: myfirstpod
+          image: psrv3/batchsevengithub-action:latest
+          ports:
+            - containerPort: 5001
+  replicas: 3
+  selector:
+    matchLabels:
+      app: myflaskapp

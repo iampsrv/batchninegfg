@@ -1,0 +1,10 @@
+image:
+  repository: psrv3/newfa
+  tag: latest
+service:
+  type: LoadBalancer
+  port: 5001
+  name: my-flask-app
+ingress:
+  enabled: true
+  host: my-flask-app.example.com
