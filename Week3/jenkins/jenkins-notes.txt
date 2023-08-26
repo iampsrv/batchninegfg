@@ -87,7 +87,6 @@ pipeline
     }
 }
 
-docker login -u psrv3 -p XXX
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Use ngrok to make localhost public. So that we use public url for creating webhook
