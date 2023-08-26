@@ -1,0 +1,22 @@
+minikube start --driver hyperv/docker/vmware/virtualbox
+minikube status
+minikube delete
+
+minikube addons enable dashboard
+minikube dashboard
+minikube docker-env
+minikube ssh
+minikube stop
+minikube pause/unpause
+
+kubectl api-resources
+
+kubectl create -f <nameofthefile.yaml>
+kubectl run myflaskpod --image=psrv3/cicdbatchninne --dry-run=client -o yaml > pod.yaml
+kubectl edit pod/myflaskpod 
+
+minikube addons enable metric-servers
+kubectl top node
+kubectl top pod
+kubectl autoscale deploy myfirstdeployment --cpu-percent=40 --min=3 --max=6
+kubectl get hpa
