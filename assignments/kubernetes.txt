@@ -1,0 +1,23 @@
+01. Create a YAML file to define a Pod
+02. Use kubectl to create the Pod
+03. Verify the status and logs of container within the Pod 
+04. Delete the Pod and observe the behavior
+05. Create a Deployment with 3 replicas
+06. Create a Loadbalancer/nodeport Service to expose the Pod
+07. Set up an Ingress to route traffic to the appropriate Services
+08. Scale the Deployment to 5 replicas
+09. Perform a rolling update by changing the docker image version
+10. Rollback the Deployment to the previous version
+11. Create a PVC to dynamically provision storage
+12. Attach the PVC to a Pod running an application that writes data
+13. Delete the Pod and recreate it, ensuring data is retained
+14. Create a ConfigMap with application configuration data and mount it in pod
+15. Modify a Pod definition to include readiness and liveness probes
+16. Simulate a scenario where the application in the Pod becomes unhealthy
+17. Observe Kubernetes' response to the health check failures
+18. Create a new Namespace for a specific project
+19. Deploy multiple Pods and Services within the new Namespace
+20. Deploy an application using a Rolling Update and Recreate strategy
+21. Create a Pod with defined resource requests and limits
+22. Experiment with different restart policies (Always, OnFailure, Never) for a failing Pod
+

@@ -8,6 +8,7 @@ minikube docker-env
 minikube ssh
 minikube stop
 minikube pause/unpause
+minikube ip
 
 kubectl api-resources
 
@@ -20,3 +21,10 @@ kubectl top node
 kubectl top pod
 kubectl autoscale deploy myfirstdeployment --cpu-percent=40 --min=3 --max=6
 kubectl get hpa
+
+kubectl get pod/service/rs/deploy/volume/hpa
+kubectl describe <k8s_object> <name_of_object>
+kubectl events
+
+minikube service <svc_name>
+kubectl expose rc nginx --port=80 --target-port=8000
